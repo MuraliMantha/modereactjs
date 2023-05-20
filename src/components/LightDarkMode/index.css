@@ -1,0 +1,41 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+.heading {
+  font-family: Bree Serif;
+  font-size: 40px;
+
+  font-weight: bold;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #1e293b;
+  border-color: #000000;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+}
